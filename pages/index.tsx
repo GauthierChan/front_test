@@ -127,7 +127,7 @@ export default function Index() {
             );
         }
 
-        if(state.items && state.items.length > 0) // Check if we have item for the active category. If the user tampered the url params we might have no items
+        if(state.items && state.items.length > 0)
         {
             return (
                 <Div_Content>
